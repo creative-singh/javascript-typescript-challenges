@@ -1,0 +1,35 @@
+body {
+  background-color: #343a40;
+  padding: 0;
+  color: #ffffff;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.container{
+  text-align: center;
+}
+
+.content{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#myDate{
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid red;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+#calculate{
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid red;
+  font-size: 20px;
+}
